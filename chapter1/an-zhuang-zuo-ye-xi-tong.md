@@ -20,18 +20,7 @@ diskutil list
 #unmount要燒錄的對象
 diskutil unmountDisk /dev/disk4
 
-#進行燒錄，bs=
-<
-處理速度
->
- if=
-<
-輸入
->
- of=
-<
-輸出
->
+#進行燒錄，bs=<處理速度> if=<輸入> of=<輸出>
 
 #所以要備份的話只要將if和of倒過來就可以了
 sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
@@ -78,6 +67,6 @@ sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
 
   > 參考：[http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition](http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition)
 
-[      
+[        
 ](https://wakeuptsai.gitbooks.io/nmsl-fog-computing-platform/content/raspberry-pi.html)
 

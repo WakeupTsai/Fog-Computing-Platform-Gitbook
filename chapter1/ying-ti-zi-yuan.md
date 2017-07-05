@@ -1,6 +1,4 @@
-# Raspberry Pi硬體規格 {#raspberry-pi硬體規格}
-
----
+# 硬體資源  {#raspberry-pi硬體規格}
 
 ![](https://wakeuptsai.gitbooks.io/nmsl-fog-computing-platform/content/sVvsB.jpg)
 

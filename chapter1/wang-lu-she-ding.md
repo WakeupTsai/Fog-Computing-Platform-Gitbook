@@ -30,7 +30,7 @@ iface eth0 inet static
 address xxx.xxx.xxx.xxx
 netmask xxx.xxx.xxx.xxx
 gateway xxx.xxx.xxx.xxx
-dns-nameserver 8.8.8.8
+dns-nameservers 8.8.8.8
 
 #wifi
 allow-hotplug wlan0
@@ -74,7 +74,7 @@ echo 'network={
 ### 問題 {#問題}
 
 * `ping`不到 8.8.8.8 —&gt;DNS無法正常運作
-  * 修改 /etc/resolv.cong 加上 nameserver 8.8.8.8
+  * 修改 /etc/resolv.conf 加上 nameserver 8.8.8.8
 * `ifconfig -a`找不到介面卡
   * 重置介面卡`ifdown eth0`、`ifup eth0`
 
