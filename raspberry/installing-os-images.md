@@ -67,6 +67,6 @@ sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
 
   > 參考：[http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition](http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition)
 
-[        
+[          
 ](https://wakeuptsai.gitbooks.io/nmsl-fog-computing-platform/content/raspberry-pi.html)
 

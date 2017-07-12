@@ -9,19 +9,10 @@
 ```
 #安裝相關packages, 這裡省略docker的安裝 
 apt-get install -y kubelet kubeadm kubectl kubernetes-cni
-apt-get update 
-&
-&
- apt-get upgrade
+apt-get update && apt-get upgrade
 
 #使用Ubuntu或HypriotOS的話需再執行以下指令
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-cat 
-<
-<
-EOF 
->
- /etc/apt/sources.list.d/kubernetes.list
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -cat <<EOF > /etc/apt/sources.list.d/kubernetes.list
 deb http://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 ```
