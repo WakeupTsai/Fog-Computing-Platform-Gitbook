@@ -67,9 +67,9 @@ echo 'network={
 
 `sudo /etc/init.d/networking restart`
 
-> 參考1：[http://unix.stackexchange.com/questions/128439/good-detailed-explanation-of-etc-network-interfaces-syntax](http://unix.stackexchange.com/questions/128439/good-detailed-explanation-of-etc-network-interfaces-syntax)+
->
-> 參考2：[https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp](https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp)
+> 參考1：[Good detailed explanation of /etc/network/interfaces syntax?](https://unix.stackexchange.com/questions/128439/good-detailed-explanation-of-etc-network-interfaces-syntax)
+
+> 參考2：[有線 或 無線 的DHCP 設定或固定IP設定](https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp)
 
 ### 問題 {#問題}
 

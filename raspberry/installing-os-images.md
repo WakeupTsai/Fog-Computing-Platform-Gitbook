@@ -26,7 +26,7 @@ diskutil unmountDisk /dev/disk4
 sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
 ```
 
-> 參考 :[https://www.raspberrypi.org/documentation/installation/installing-images/mac.md](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
+> 參考 :[INSTALLING OPERATING SYSTEM IMAGES ON MAC OS](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
 ### 空間調整 {#空間調整}
 
@@ -65,8 +65,8 @@ sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
   df -h
   ```
 
-  > 參考：[http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition](http://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition)
+  > 參考：[How can I resize my / \(root\) partition?](https://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition)
 
-[          
+[            
 ](https://wakeuptsai.gitbooks.io/nmsl-fog-computing-platform/content/raspberry-pi.html)
 

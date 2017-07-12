@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Implement](implement.md)
 * [Raspberry Pi](/raspberry.md#raspberry-pi硬體規格)
   * [Hardware Specifications](raspberry/hardware-specifications.md)
   * [Installing OS images](raspberry/installing-os-images.md)
@@ -12,4 +11,9 @@
   * [Compile](kubernetes/compile.md)
 * [Docker](docker.md)
   * [Install](docker/install.md)
+  * [Reference](docker/reference.md)
+* [Implementation](implementation.md)
+  * [Master](implementation/master.md)
+  * Worker-RPI
+  * Worker-PC
 

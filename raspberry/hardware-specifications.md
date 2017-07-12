@@ -8,7 +8,7 @@
 
 ![](/assets/GPIO.png)
 
-> 來源：[http://www.element14.com/community/docs/DOC-68203/l/raspberry-pi-b-gpio-40-pin-block-pinout](http://www.element14.com/community/docs/DOC-68203/l/raspberry-pi-b-gpio-40-pin-block-pinout)
+> 來源：[Raspberry Pi B+ GPIO 40 Pin Block Pinout](http://www.element14.com/community/docs/DOC-68203/l/raspberry-pi-b-gpio-40-pin-block-pinou)
 
 
 
