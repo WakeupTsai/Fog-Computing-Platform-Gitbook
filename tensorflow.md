@@ -26,11 +26,11 @@ deactivate
 ### tensorboard
 - http://darren1231.pixnet.net/blog/post/333059241-tensorflow教學----可視化tensorboard
 ```
-# 在程式尾端加上
-writer = tf.summary.FileWriter("logs/", sess.graph)
+    # 在程式尾端加上
+    writer = tf.summary.FileWriter("logs/", sess.graph)
 
-# 將存好的log已網頁版tensorboard開啟
-tensorboard --logdir='logs/'	
+    # 將存好的log已網頁版tensorboard開啟
+    tensorboard --logdir='logs/'	
 ```
 
 ### 筆記

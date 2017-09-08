@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [System Overview](system-overview.md)
-* Challenges
+* [Challenges](challenges.md)
   * [Dynamic Deployment](dynamic-deployment.md)
   * [Resource Monitor](resource-monitor.md)
   * [Deployment Problem Formulation and Algorithm](deployment-problem-formulation-and-algorithm.md)
@@ -21,6 +21,10 @@
 * [TensorFlow](tensorflow.md)
 * [Implementation](implementation.md)
   * [Master](implementation/master.md)
-  * Worker-RPI
+  * [Worker-RPI](implementation/worker-rpi.md)
+    * [Fix bugs](implementation/worker-rpi/fix-bugs.md)
+    * [TensorFlow for RPI](implementation/worker-rpi/tensorflow-for-rpi.md)
   * Worker-PC
+  * [Note](implementation/note.md)
+    * [Reconnect nodes](implementation/note/re-connect-node.md)
 
