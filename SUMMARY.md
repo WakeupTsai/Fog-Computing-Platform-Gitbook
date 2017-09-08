@@ -18,6 +18,7 @@
 * [Docker](docker.md)
   * [Install](docker/install.md)
   * [Reference](docker/reference.md)
+* [TensorFlow](tensorflow.md)
 * [Implementation](implementation.md)
   * [Master](implementation/master.md)
   * Worker-RPI
