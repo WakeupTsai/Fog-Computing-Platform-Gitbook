@@ -1,6 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+* [System Overview](system-overview.md)
+* Challenges
+  * [Dynamic Deployment](dynamic-deployment.md)
+  * [Resource Monitor](resource-monitor.md)
+  * [Deployment Problem Formulation and Algorithm](deployment-problem-formulation-and-algorithm.md)
+  * [Model Virtualizaion Overhead](model-virtualizaion-overhead.md)
 * [Raspberry Pi](/raspberry.md#raspberry-pi硬體規格)
   * [Hardware Specifications](raspberry/hardware-specifications.md)
   * [Installing OS images](raspberry/installing-os-images.md)
