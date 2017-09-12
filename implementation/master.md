@@ -89,10 +89,28 @@ kubectl create -f kubernetes-dashboard.yaml
 git clone https://github.com/kubernetes/dashboard.git
 cd dashboard
 
+# 安裝node.js
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+source ~/.profile
+nvm install v6.11.3  # 版本自選
+node -v
+
+# 安裝go-lang，版本自選
+wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
+go version
+
 # 安裝dependencies
-# 建議另外參考"參考2"的步驟安裝
-# *** node.js參考參考3可以避免掉很多麻煩 ***
 npm install
+
+# 安裝gulp
+sudo npm install --global gulp-cli
+sudo npm install --global gulp
+gulp -v
 
 # 啟動dashboard，port預設為9090
 gulp serve
