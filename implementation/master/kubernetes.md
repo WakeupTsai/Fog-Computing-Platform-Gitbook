@@ -1,4 +1,5 @@
-### Kubernetes
+### Kubernetes {#raspberry-pi硬體規格}
+
 
 * 安裝與啟動
 
