@@ -9,6 +9,7 @@
   * [Model Virtualizaion Overhead](model-virtualizaion-overhead.md)
 * [Raspberry Pi](/raspberry.md#raspberry-pi硬體規格)
   * [Hardware Specifications](raspberry/hardware-specifications.md)
+    * [Camera](raspberry/hardware-specifications/camera.md)
   * [Installing OS images](raspberry/installing-os-images.md)
   * [Network Configuration](raspberry/network-configuration.md)
   * [Others](raspberry/other.md)
