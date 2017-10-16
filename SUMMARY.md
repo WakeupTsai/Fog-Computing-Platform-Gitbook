@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* About this book
 * [System Overview](system-overview.md)
 * [Challenges](challenges.md)
   * [Dynamic Deployment](dynamic-deployment.md)
@@ -29,7 +30,7 @@
   * [Worker-RPI](implementation/worker-rpi.md)
     * [Fix bugs](implementation/worker-rpi/fix-bugs.md)
     * [TensorFlow for RPI](implementation/worker-rpi/tensorflow-for-rpi.md)
-  * Worker-PC
+  * [Worker-PC](implementation/worker-pc.md)
   * [Note](implementation/note.md)
     * [Reconnect nodes](implementation/note/re-connect-node.md)
 
