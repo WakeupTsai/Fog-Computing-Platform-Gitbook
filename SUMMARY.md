@@ -28,7 +28,7 @@
     * [Helm](implementation/master/helm.md)
     * [MQTT Panel](implementation/master/mqtt-panel.md)
   * [Worker-RPI](implementation/worker-rpi.md)
-    * [Fix bugs](implementation/worker-rpi/fix-bugs.md)
+    * [kubernetes-on-arm](implementation/worker-rpi/kubernetes-on-arm.md)
     * [TensorFlow for RPI](implementation/worker-rpi/tensorflow-for-rpi.md)
   * [Worker-PC](implementation/worker-pc.md)
   * [Note](implementation/note.md)
