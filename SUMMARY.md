@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* About this book
+* [About this book](about-this-book.md)
 * [System Overview](system-overview.md)
 * [Challenges](challenges.md)
   * [Dynamic Deployment](dynamic-deployment.md)
