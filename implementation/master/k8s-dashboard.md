@@ -50,6 +50,12 @@ gulp -v
 gulp serve
 ```
 
+* Heapster
+如果啟動後出現以下Warning表示Heapster沒有執行
+```Metric client health check failed: the server could not find the requested resource (get services heapster). Retrying in 30 seconds.```
+
+
+
 > 參考1：[Getting Started](https://github.com/kubernetes/dashboard/blob/master/docs/devel/getting-started.md)  
 > 參考2：[Installing Requirements for the Kubernetes Dashboard](https://github.com/kubernetes/dashboard/blob/master/docs/devel/requirements-installation.md)  
 > 參考3：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
