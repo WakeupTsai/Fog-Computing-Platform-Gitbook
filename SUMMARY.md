@@ -24,6 +24,7 @@
 * [Implementation](implementation.md)
   * [Master](implementation/master.md)
     * [Kubernetes](implementation/master/kubernetes.md)
+    * [Heapster](implementation/master/heapster.md)
     * [K8S Dashboard](implementation/master/k8s-dashboard.md)
     * [Helm](implementation/master/helm.md)
     * [MQTT Panel](implementation/master/mqtt-panel.md)
