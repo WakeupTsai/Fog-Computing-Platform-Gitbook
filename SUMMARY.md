@@ -16,6 +16,7 @@
   * [Others](raspberry/other.md)
 * [Kubernetes](/kubernetes.md#kubeadm)
   * [kubeadm](kubernetes/kubeadm.md)
+  * [Install](kubernetes/install.md)
   * [Compile](kubernetes/compile.md)
 * [Docker](docker.md)
   * [Install](docker/install.md)
