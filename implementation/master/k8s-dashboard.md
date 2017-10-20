@@ -56,7 +56,6 @@ gulp serve
 
 
 
-> 參考1：[Getting Started](https://github.com/kubernetes/dashboard/blob/master/docs/devel/getting-started.md)  
-> 參考2：[Installing Requirements for the Kubernetes Dashboard](https://github.com/kubernetes/dashboard/blob/master/docs/devel/requirements-installation.md)  
-> 參考3：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
+> 參考1：[Getting Started](https://github.com/kubernetes/dashboard/wiki/Getting-started)  
+> 參考2：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
 
