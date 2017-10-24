@@ -1,6 +1,6 @@
-### Kubernetes Dashboard
-
-* 利用k8s與container啟動dashboard
+# Kubernetes Dashboard
+---
+### 利用k8s與container啟動dashboard
 
 ```
 wget https://rawgit.com/kubernetes/dashboard/master/src/deploy/kubernetes-dashboard.yaml
@@ -17,7 +17,7 @@ vim kubernetes-dashboard.yaml
 kubectl create -f kubernetes-dashboard.yaml
 ```
 
-* 手動安裝在local端
+### 手動安裝在local端
 
 ```
 git clone https://github.com/kubernetes/dashboard.git
@@ -50,12 +50,13 @@ gulp -v
 gulp serve
 ```
 
-* Heapster
-如果啟動後出現以下Warning表示Heapster沒有執行
+
+> 參考1：[Getting Started](https://github.com/kubernetes/dashboard/wiki/Getting-started)
+> 參考2：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
+
+### 問題
+* 如果啟動後出現以下Warning表示Heapster沒有執行
 ```Metric client health check failed: the server could not find the requested resource (get services heapster). Retrying in 30 seconds.```
 
 
-
-> 參考1：[Getting Started](https://github.com/kubernetes/dashboard/wiki/Getting-started)  
-> 參考2：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
 

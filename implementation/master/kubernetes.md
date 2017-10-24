@@ -1,7 +1,8 @@
-### Kubernetes {#raspberry-pi硬體規格}
+# Kubernetes {#raspberry-pi硬體規格}
 
+---
 
-* 安裝與啟動
+### 安裝與啟動
 
 ```
 # 使用1.5版本的Kubernetes
@@ -29,4 +30,14 @@ ALLOW_PRIVILEGED=true KUBERNETES_PROVIDER=ubuntu ./kube-down.sh
 ```
 
 > 參考：[Manually Deploying Kubernetes on Ubuntu Nodes](https://kubernetes.io/docs/getting-started-guides/ubuntu/manual/)
+
+### 問題
+    - Could not find or add an SSH identity. Please start ssh-agent, add your identity, and retry.
+    ```
+	eval "$(ssh-agent)"
+	ssh-keygen
+	ssh-add /home/nmsl-master/.ssh/id_rsa
+    ```
+    > 參考：https://github.com/kubernetes/kubernetes/issues/11916
+
 
