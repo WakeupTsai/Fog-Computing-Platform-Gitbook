@@ -8,9 +8,14 @@
 # 使用1.5版本的Kubernetes
 git clone -b release-1.5 --depth 1 https://github.com/kubernetes/kubernetes.git
 
-# 修改code，將第45行的"verify-kube-binaries"註解掉
+# 將第45行的"verify-kube-binaries"註解掉
 cd kubernetes/cluster
 vim kube-up.sh
+
+# 使api-server提供跨來源資源共享(CORS)功能
+vim ubuntu/util.sh
+# 在250行加入
+--cors-allowed-origins=["http://*"]\
 
 # 設定環境變數,nodes="[master-username]@[master-ip]"用來設定master是誰
 export KUBE_VERSION=1.5.0 
