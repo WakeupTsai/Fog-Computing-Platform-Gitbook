@@ -48,7 +48,7 @@ sudo apt-get -y autoremove
 sudo rm -rf /var/lib/docker
 ```
 
-> 參考：[Get Docker CE for Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+> 參考：[Get Docker CE for Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) 、[安裝Docker-CE](http://www.itfanr.cc/2017/08/25/ubuntu-install-docker-ce-and-configure-mirror-accelerator/)
 
 ### 舊版Docker
 
