@@ -15,12 +15,15 @@ Docker在 1.13.1版之後將版本劃分為CE \(Community Edition\)和EE \(Enter
 ```
 # 設定apt-get時的repository
 sudo apt-get update
+#允許通過HTTPS使用儲存庫
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     software-properties-common
+#導入官方GPG密鑰
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+#選擇穩定版本
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
@@ -28,8 +31,8 @@ sudo add-apt-repository \
 
 # 開始安裝docker-ce
 sudo apt-get update
-apt-cache madison docker-ce
-sudo apt-get install docker-ce=<VERSION>
+apt-cache madison docker-ce  #查看可安裝的版本
+sudo apt-get install docker-ce=<VERSION>  #選擇要安裝的版本
 
 # 完成
 sudo docker run hello-world
@@ -89,6 +92,7 @@ sudo rm -rf /var/lib/docker
   * `sudo usermod -aG docker $(whoami)`
 
 * docker: Error response from daemon: client is newer than server \(client API version: xxx, server API version: xxx\).
+
   * `sudo rm -rf /var/lib/docker`
 
 
