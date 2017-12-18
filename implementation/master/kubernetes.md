@@ -52,15 +52,25 @@ chmod +x ./kubectl
 # Move the binary in to your PATH.
 sudo mv ./kubectl /usr/local/bin/kubectl
 ```
+
 > 參考：[Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
 ### 問題
-    - Could not find or add an SSH identity. Please start ssh-agent, add your identity, and retry.
-    ```
-	eval "$(ssh-agent)"
-	ssh-keygen
-	ssh-add /home/nmsl-master/.ssh/id_rsa
-    ```
-    > 參考：https://github.com/kubernetes/kubernetes/issues/11916
+
+* Could not find or add an SSH identity. Please start ssh-agent, add your identity, and retry.
+  ```
+  eval "$(ssh-agent)"
+  ssh-keygen
+  ssh-add /home/nmsl-master/.ssh/id_rsa
+  ```
+
+  ```
+  curl: (60) SSL certificate problem: unable to get local issuer certificate
+  # 將所有*.sh中的curl 改成 curl -k
+  sed -i 's/curl/curl -k/g' *.sh
+  ```
+
+  > 參考：[https://github.com/kubernetes/kubernetes/issues/11916](https://github.com/kubernetes/kubernetes/issues/11916)
+
 
 
