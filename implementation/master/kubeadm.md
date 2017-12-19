@@ -30,7 +30,8 @@ Your Kubernetes master has initialized successfully!
 You should now deploy a pod network to the cluster.
 Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
     http://kubernetes.io/docs/admin/addons/
-
+```
+```
 You can now join any number of machines by running the following on each node:
 
 kubeadm join --token=[token] [master-IP] # <--注意
