@@ -34,16 +34,8 @@ kubeadm init
 [certificates] Created keys and certificates in "/etc/kubernetes/pki"
 [kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/kubelet.conf"
 [kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/admin.conf"
-[apiclient] Created API client, waiting for the control plane to become ready
-[apiclient] All control plane components are healthy after 30.814512 seconds
-[apiclient] Waiting for at least one node to register and become ready
-[apiclient] First node is ready after 3.535811 seconds
-[apiclient] Creating a test deployment
-[apiclient] Test deployment succeeded
-[token-discovery] Created the kube-discovery deployment, waiting for it to become ready
-[token-discovery] kube-discovery is ready after 13.002653 seconds
-[addons] Created essential addon: kube-proxy
-[addons] Created essential addon: kube-dns
+
+... ...
 
 Your Kubernetes master has initialized successfully!
 

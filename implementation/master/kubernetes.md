@@ -41,9 +41,7 @@ ALLOW_PRIVILEGED=true KUBERNETES_PROVIDER=ubuntu ./kube-down.sh
 ```
 # Download the latest release with the command:
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-
-# To download a specific version, replace the $(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt) portion of the command with the specific version.
-# For example, to download version v1.8.0 on Linux, type:
+# To download a specific version, for example, to download version v1.8.0 on Linux, type:
 curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.8.0/bin/linux/amd64/kubectl
 
 # Make the kubectl binary executable.
