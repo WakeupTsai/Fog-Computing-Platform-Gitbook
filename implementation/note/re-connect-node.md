@@ -1,5 +1,5 @@
 ### 小技巧
-
+---
 1. 從master端刪除node
 每次要連的時候都要先從master把那個node刪掉
 ```kubectl get node``` 可以看目前有哪些node
