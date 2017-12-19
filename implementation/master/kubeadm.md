@@ -22,8 +22,7 @@ EOF
 
 ```
 kubeadm init
-```
-```
+
 #接著會出現以下訊息
 ... ...
 Your Kubernetes master has initialized successfully!
@@ -34,8 +33,7 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 
 You can now join any number of machines by running the following on each node:
 
-#這一行就是用來將node加入cluster的指令
-kubeadm join --token=[token] [master-IP]
+kubeadm join --token=[token] [master-IP] # <--注意
 
 ```
 
