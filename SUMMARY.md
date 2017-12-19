@@ -1,6 +1,5 @@
 # Summary
 
-* [introduction](README.md)
 * [Implementation](implementation.md)
   * [master](master.md)
     * [docker](implementation/master/docker.md)
