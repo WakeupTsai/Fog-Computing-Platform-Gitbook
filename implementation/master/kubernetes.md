@@ -62,9 +62,7 @@ sudo mv ./kubectl /usr/local/bin/kubectl
   eval "$(ssh-agent)"
   ssh-keygen
   ssh-add /home/nmsl-master/.ssh/id_rsa
-  ```
 
-  ```
   curl: (60) SSL certificate problem: unable to get local issuer certificate
   # 將所有*.sh中的curl 改成 curl -k
   sed -i 's/curl/curl -k/g' *.sh

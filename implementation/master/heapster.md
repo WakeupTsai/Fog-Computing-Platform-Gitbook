@@ -16,7 +16,5 @@ Heapster是一個收集者，將每個節點上的cAdvisor的數據進行匯總�
 ```
 git clone https://github.com/kubernetes/heapster
 cd heapster
-
 kubectl create -f deploy/kube-config/influxdb/heapster.yaml
-# kubectl create -f deploy/kube-config/rbac/heapster-rbac.yaml
 ```
