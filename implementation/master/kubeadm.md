@@ -22,7 +22,8 @@ EOF
 
 ```
 kubeadm init
-
+```
+```
 #接著會出現以下訊息
 [kubeadm] WARNING: kubeadm is in alpha, please do not use it for production clusters.
 [preflight] Running pre-flight checks
@@ -34,7 +35,6 @@ kubeadm init
 [certificates] Created keys and certificates in "/etc/kubernetes/pki"
 [kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/kubelet.conf"
 [kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/admin.conf"
-
 ... ...
 
 Your Kubernetes master has initialized successfully!
