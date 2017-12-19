@@ -56,19 +56,7 @@ kubeadm join --token=[token] [master-IP]
 kubeadn join --token=[token] [master-ip]
 
 #出現以下訊息就表示成功了
-[kubeadm] WARNING: kubeadm is in alpha, please do not use it for production clusters.
-[preflight] Running pre-flight checks
-[tokens] Validating provided token
-[discovery] Cluster info object received, verifying signature using given token
-[bootstrap] Detected server version: v1.5.1
-[bootstrap] Successfully established connection with endpoint "https://140.114.79.83:6443"
-[csr] Created API client to obtain unique certificate for this node, generating keys and certificate signing request
-[csr] Received signed certificate from the API server:
-Issuer: CN=kubernetes | Subject: CN=system:node:black-pearl | CA: false
-Not before: 2017-01-04 02:44:00 +0000 UTC Not After: 2018-01-04 02:44:00 +0000 UTC
-[csr] Generating kubelet configuration
-[kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/kubelet.conf"
-
+... ...
 Node join complete:
 * Certificate signing request sent to master and response
   received.
