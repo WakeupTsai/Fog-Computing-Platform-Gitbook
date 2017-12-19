@@ -71,6 +71,3 @@ sudo mv ./kubectl /usr/local/bin/kubectl
   ```
 
   > 參考：[https://github.com/kubernetes/kubernetes/issues/11916](https://github.com/kubernetes/kubernetes/issues/11916)
-
-
-

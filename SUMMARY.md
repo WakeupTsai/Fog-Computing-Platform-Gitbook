@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Implementation](implementation.md)
   * [master](master.md)
     * [docker](implementation/master/docker.md)
@@ -13,9 +14,9 @@
     * [Hardware Specifications](implementation/worker-rpi/hardware-specifications.md)
       * [Camera](implementation/worker-rpi/hardware-specifications/camera.md)
     * [Installing OS images](implementation/worker-rpi/installing-os-images.md)
+    * [kubernetes-on-arm](implementation/worker-rpi/kubernetes-on-arm.md)
     * [Network Configuration](implementation/worker-rpi/network-configuration.md)
     * [tensorflow-for-rpi](implementation/worker-rpi/tensorflow-for-rpi.md)
-    * [kubernetes-on-arm](implementation/worker-rpi/kubernetes-on-arm.md)
   * [note](note.md)
     * [Reconnect Node](implementation/note/re-connect-node.md)
 
