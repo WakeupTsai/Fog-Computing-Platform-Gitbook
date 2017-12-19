@@ -9,7 +9,6 @@ Docker在 1.13.1版之後將版本劃分為CE \(Community Edition\)和EE \(Enter
 > 參考 :[Docker 17.03系列教程（一）Docker EE/Docker CE简介与版本规划](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
 ### Docker CE
-
 * 安裝
 
 ```

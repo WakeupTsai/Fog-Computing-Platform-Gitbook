@@ -16,9 +16,7 @@ vim kubernetes-dashboard.yaml
 # 佈建並啟動，完成！
 kubectl create -f kubernetes-dashboard.yaml
 ```
-
 ### 手動安裝在local端
-
 ```
 git clone https://github.com/kubernetes/dashboard.git
 cd dashboard
@@ -49,8 +47,6 @@ gulp -v
 # 啟動dashboard，port預設為9090
 gulp serve
 ```
-
-
 > 參考1：[Getting Started](https://github.com/kubernetes/dashboard/wiki/Getting-started)
 > 參考2：[在 Ubuntu 14.04 上安裝 node.js](https://tw-hkt.gitbooks.io/blog/content/zai_ubuntu_14__04_shang_an_zhuang_node__js.html)
 
