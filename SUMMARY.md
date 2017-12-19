@@ -9,7 +9,7 @@
     * [k8s-dashboard](implementation/master/k8s-dashboard.md)
     * [mqtt-panel](implementation/master/mqtt-panel.md)
     * [helm](implementation/master/helm.md)
-    * [kubeadm](kubernetes/kubeadm.md)
+    * [kubeadm](implementation/master/kubeadm.md)
   * [worker-rpi](worker-rpi.md)
     * [Hardware Specifications](implementation/worker-rpi/hardware-specifications.md)
       * [Camera](implementation/worker-rpi/hardware-specifications/camera.md)
