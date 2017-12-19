@@ -1,14 +1,14 @@
-# Docker
+## Docker
 
 ---
 
-### Docker CE v.s. Docker EE {#圖形化介面}
+#### Docker CE v.s. Docker EE {#圖形化介面}
 
 Docker在 1.13.1版之後將版本劃分為CE \(Community Edition\)和EE \(Enterprise Edition\)兩個分支，兩者的主要差別在於EE版提供了相對穩定且安全的環境，並支援許多商業級別的外掛程式，而CE版則為免費的開源專案，更新較為快速很適合開發者使用。
 
 > 參考 :[Docker 17.03系列教程（一）Docker EE/Docker CE简介与版本规划](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
-### Docker CE
+#### Docker CE
 * 安裝
 
 ```
@@ -50,7 +50,7 @@ sudo rm -rf /var/lib/docker
 
 > 參考：[Get Docker CE for Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) 、[安裝Docker-CE](http://www.itfanr.cc/2017/08/25/ubuntu-install-docker-ce-and-configure-mirror-accelerator/)
 
-### 舊版Docker
+#### 舊版Docker
 
 * 安裝
 
@@ -79,7 +79,7 @@ sudo apt-get -y autoremove
 sudo rm -rf /var/lib/docker
 ```
 
-### 問題
+#### 問題
 
 * [Using docker requires sudo ](https://github.com/docker/docker-snap/issues/1)
   ```

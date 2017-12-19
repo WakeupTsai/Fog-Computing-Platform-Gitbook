@@ -1,6 +1,6 @@
-# Helm
+## Helm
 ---
-### 安裝
+#### 安裝
 
 ```
 # compile原始碼
@@ -15,7 +15,7 @@ mv bin/helm /usr/local/bin/helm
 mv bin/tiller /usr/local/bin/tiller
 ```
 
-### 啟動
+#### 啟動
 
 ```
 # 啟動helm

@@ -1,8 +1,8 @@
-#kubeadm
+## kubeadm
 
 ---
 
-### 安裝
+#### 安裝
 
 主要參考[官方文件](http://kubernetes.io/docs/getting-started-guides/kubeadm/)和這篇[網誌](http://www.evanlin.com/til-kubeadm/)，建議於Ubuntu16.04環境進行安裝，之前在14.04測試有滿多問題的
 ```
@@ -17,7 +17,7 @@ EOF
 
 ```
 
-### 操作
+#### 操作
 - 啟動Master
 
 ```
@@ -94,7 +94,7 @@ kubeadm init不可以重複執行，若啟動master失敗想要重啟，都必�
 kubeadm reset
 ```
 
-### 問題
+#### 問題
 
 - error: couldn't read version from server
   - 若曾經安裝過舊版k8s則有可能是設定檔重複，刪除 ~/.kube/config即可
