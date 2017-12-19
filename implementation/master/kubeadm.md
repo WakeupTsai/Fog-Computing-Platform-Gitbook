@@ -25,18 +25,7 @@ kubeadm init
 ```
 ```
 #接著會出現以下訊息
-[kubeadm] WARNING: kubeadm is in alpha, please do not use it for production clusters.
-[preflight] Running pre-flight checks
-[init] Using Kubernetes version: v1.5.1
-[tokens] Generated token: "7914ed.1ea34eae5cab9e8c"
-[certificates] Generated Certificate Authority key and certificate.
-[certificates] Generated API Server key and certificate
-[certificates] Generated Service Account signing keys
-[certificates] Created keys and certificates in "/etc/kubernetes/pki"
-[kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/kubelet.conf"
-[kubeconfig] Wrote KubeConfig file to disk: "/etc/kubernetes/admin.conf"
 ... ...
-
 Your Kubernetes master has initialized successfully!
 
 You should now deploy a pod network to the cluster.
