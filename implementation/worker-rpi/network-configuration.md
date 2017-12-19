@@ -1,12 +1,12 @@
-# 網路設定 {#網路設定}
+## 網路設定 {#網路設定}
 
 ---
 
-### 圖形化介面 {#圖形化介面}
+#### 圖形化介面 {#圖形化介面}
 
 直接透過GUI設定。
 
-### 命令行介面 {#命令行介面}
+#### 命令行介面 {#命令行介面}
 
 ##### 1. 修改網路介面設定檔 {#1-修改網路介面設定檔}
 
@@ -71,7 +71,7 @@ echo 'network={
 
 > 參考2：[有線 或 無線 的DHCP 設定或固定IP設定](https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp)
 
-### 問題 {#問題}
+#### 問題 {#問題}
 
 * `ping`不到 8.8.8.8 —&gt;DNS無法正常運作
   * 修改 /etc/resolv.conf 加上 nameserver 8.8.8.8

@@ -1,4 +1,4 @@
-# 硬體資源 {#raspberry-pi硬體規格}
+## 硬體資源 {#raspberry-pi硬體規格}
 
 ---
 

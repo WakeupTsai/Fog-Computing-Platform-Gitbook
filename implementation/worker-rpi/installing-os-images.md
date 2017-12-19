@@ -1,8 +1,8 @@
-# 安裝作業系統 {#安裝作業系統}
+## 安裝作業系統 {#安裝作業系統}
 
 ---
 
-### 下載Image {#下載image}
+#### 下載Image {#下載image}
 
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
   * Raspberry Pi官方推薦的Image
@@ -11,7 +11,7 @@
 * [kubernetes-on-arm](https://github.com/luxas/kubernetes-on-arm)
   * 將Kubernetes整合進ARM系統的project，有script可以幫助燒錄SD卡
 
-### 燒錄SD卡 {#燒錄sd卡}
+#### 燒錄SD卡 {#燒錄sd卡}
 
 ```
 #列出Disk狀態
@@ -28,7 +28,7 @@ sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk4
 
 > 參考 :[INSTALLING OPERATING SYSTEM IMAGES ON MAC OS](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
-### 空間調整 {#空間調整}
+#### 空間調整 {#空間調整}
 
 將SD卡插入Pi開機後輸入`df -h`指令會發現總空間只跟image一樣大，且使用率已接近100%，因此必須進行空間的調整，將SD卡剩餘的空間合併過來
 
