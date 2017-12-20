@@ -19,12 +19,14 @@ kubectl create -f kubernetes-dashboard.yaml
 
 #### 手動安裝在local端
 ```
-git clone https://github.com/kubernetes/dashboard.git
+# 修改版
+https://github.com/WakeupTsai/FogComputingPlatform-dashboard.git
+# 或者用官方版
+# git clone https://github.com/kubernetes/dashboard.git
+```
+
+```
 cd dashboard
-```
-
-```
-
 # 安裝node.js
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
