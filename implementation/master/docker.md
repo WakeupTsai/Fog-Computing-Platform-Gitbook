@@ -9,6 +9,7 @@ Docker在 1.13.1版之後將版本劃分為CE \(Community Edition\)和EE \(Enter
 > 參考 :[Docker 17.03系列教程（一）Docker EE/Docker CE简介与版本规划](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
 #### Docker CE
+
 * 安裝
 
 ```
@@ -28,11 +29,13 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 ```
+
 ```
 # 開始安裝docker-ce
 sudo apt-get update
 apt-cache madison docker-ce  #查看可安裝的版本
 sudo apt-get install docker-ce=<VERSION>  #選擇要安裝的版本
+e.g., sudo apt-get install docker-ce=17.06.0~ce-0~ubuntu
 
 # 完成
 sudo docker run hello-world
