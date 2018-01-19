@@ -68,8 +68,21 @@ echo 'network={
 `sudo /etc/init.d/networking restart`
 
 > 參考1：[Good detailed explanation of /etc/network/interfaces syntax?](https://unix.stackexchange.com/questions/128439/good-detailed-explanation-of-etc-network-interfaces-syntax)
-
+>
 > 參考2：[有線 或 無線 的DHCP 設定或固定IP設定](https://sites.google.com/site/raspberypishare0918/home/di-yi-ci-qi-dong/1-6-you-xian-huo-wu-xian-dedhcp)
+
+**4.  DNS設定**
+
+```
+sudo vim /etc/dhcp/dhclient.conf
+```
+
+加入兩行在 alias{ ... } 下方
+
+```
+optional domain-name "www.google.com"
+optional domain-name-servers 8.8.8.8
+```
 
 #### 問題 {#問題}
 
