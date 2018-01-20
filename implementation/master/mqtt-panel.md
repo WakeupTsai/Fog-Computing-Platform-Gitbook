@@ -1,5 +1,29 @@
 ## MQTT-Panel
+
 ---
+
+#### MQTT 安裝
+
+```
+# 安裝mqtt-broker
+wget https://mosquitto.org/files/source/mosquitto-1.4.10.tar.gz
+tar zxvf mosquitto-1.4.10.tar.gz
+cd mosquitto-1.4.10/
+sudo make prefix=/usr install
+```
+
+```
+sudo vim /etc/init.d/rc.local
+```
+
+＃至檔案中最末加上一行 使一開機就將mosquitto在背景執行
+
+```
+mosquito -d 
+```
+
+
+
 #### 安裝與啟動
 
 ```
