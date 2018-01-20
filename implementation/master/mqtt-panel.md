@@ -16,13 +16,11 @@ sudo make prefix=/usr install
 sudo vim /etc/init.d/rc.local
 ```
 
-＃至檔案中最末加上一行 使一開機就將mosquitto在背景執行
+＃至檔案中最末加上一行 使一開機就將mosquitto在root 背景執行
 
 ```
-mosquito -d 
+mosquito -d
 ```
-
-
 
 #### 安裝與啟動
 
