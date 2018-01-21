@@ -10,6 +10,7 @@
     * [mqtt-panel](implementation/master/mqtt-panel.md)
     * [helm](implementation/master/helm.md)
     * [kubeadm](implementation/master/kubeadm.md)
+    * [Regisrty](implementation/master/regisrty.md)
   * [worker-rpi](worker-rpi.md)
     * [Hardware Specifications](implementation/worker-rpi/hardware-specifications.md)
       * [Camera](implementation/worker-rpi/hardware-specifications/camera.md)
