@@ -18,6 +18,7 @@
     * [kubernetes-on-arm](implementation/worker-rpi/kubernetes-on-arm.md)
     * [Network Configuration](implementation/worker-rpi/network-configuration.md)
     * [tensorflow-for-rpi](implementation/worker-rpi/tensorflow-for-rpi.md)
+    * [User Configuration](implementation/worker-rpi/user-configuration.md)
   * [note](note.md)
     * [Reconnect Node](implementation/note/re-connect-node.md)
 
