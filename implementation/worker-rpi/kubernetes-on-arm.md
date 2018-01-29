@@ -1,8 +1,11 @@
 ## kubernetes-on-arm
+
 ---
-> https://github.com/luxas/kubernetes-on-arm/tree/v0.8.0
+
+> [https://github.com/luxas/kubernetes-on-arm/tree/v0.8.0](https://github.com/luxas/kubernetes-on-arm/tree/v0.8.0)
 
 #### 燒錄SD卡
+
 ```
 git clone https://github.com/luxas/kubernetes-on-arm
 cd kubernetes-on-arm
@@ -32,25 +35,26 @@ sudo vim /etc/kubernetes/kube-deploy/docker-multinode/common.sh
 # IP_ADDRESS=${IP_ADDRESS:-${DEFAULT_IP_ADDRESS}}
 IP_ADDRESS=asdfaklsdjflkasjdflj
 ```
+
 ```
 # line177
 # --etcd-endpoints=http://${MASTER_IP}:2379 \
 --etcd-endpoints=http://${MASTER_IP}:4001 \
 ```
-```
 
+```
 # line179
 # --iface="${IP_ADDRESS}"
 --iface=eth0
 ```
-```
 
+```
 # line220
 # --hostname-override=${IP_ADDRESS} \
 --hostname-override=${hostname} \
 ```
-```
 
+```
 # line247
 # --hostname-override=${IP_ADDRESS} \
 --hostname-override=${hostname} \
@@ -68,3 +72,22 @@ kube-config enable-master
 # To set up your board as a node, run
 kube-config enable-worker [master-ip]
 ```
+
+#### 問題
+
+1. 若使用image  “rpi-3 hypriotos docker-multinode” 可能沒有/etc/kubernetes/kube-deploy此資料夾
+
+```
+git clone https://github.com/little170/kube-deploy #下載完後 則可以執行 kube-config install
+```
+
+   2. ERROR /usr/bin/kube-config: line232: ./worker.sh Perission denied
+
+```
+sudo vim /usr/bin/kube-config
+#至 232行 將./worker.sh 改成
+bash worker.sh
+```
+
+
+
