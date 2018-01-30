@@ -73,21 +73,7 @@ kube-config enable-master
 kube-config enable-worker [master-ip]
 ```
 
-#### 問題
-
-1. 若使用image  “rpi-3 hypriotos docker-multinode” 可能沒有/etc/kubernetes/kube-deploy此資料夾
-
-```
-git clone https://github.com/little170/kube-deploy #下載完後 則可以執行 kube-config install
-```
-
-   2. ERROR /usr/bin/kube-config: line232: ./worker.sh Perission denied
-
-```
-sudo vim /usr/bin/kube-config
-#至 232行 將./worker.sh 改成
-bash worker.sh
-```
+#### 
 
 
 
