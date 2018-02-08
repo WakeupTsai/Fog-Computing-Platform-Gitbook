@@ -13,6 +13,10 @@ cd kubernetes-on-arm
 # See which letter your newly inserted SD Card has:
 sudo fdisk -l  # or lsblk
 
+# Format sd card
+sudo umount /dev/sdX
+sudo mkfs.vfat /dev/sdX -I
+
 # Get some help text about supported options
 sdcard/write.sh
 
