@@ -36,7 +36,7 @@ dns-nameservers 8.8.8.8
 allow-hotplug wlan0
 iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-iface default net dhcp
+iface default inet dhcp
 ```
 
 ##### 2. 設定欲連線的WiFi AP {#2-設定欲連線的wifi-ap}
@@ -45,12 +45,21 @@ iface default net dhcp
 vim /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
-格式為
+若wifi有密碼格式為
 
 ```
 network={
   ssid="xxx"
   psk="xxx"
+}
+```
+
+若wifi沒有密碼格式為
+
+```
+network={
+  ssid="xxx"
+  key_mgmt=NONE
 }
 ```
 
