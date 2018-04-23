@@ -77,7 +77,17 @@ kube-config enable-master
 kube-config enable-worker [master-ip]
 ```
 
-#### 
+#### 問題
+
+* ##### Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+
+```
+sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
+sudo usermod -aG docker <username>
+
+參考：https://forums.docker.com/t/cannot-connect-to-the-docker-daemon-is-the-docker-daemon-running-on-this-host/8925
+參考：https://www.upcloud.com/support/how-to-configure-docker-swarm/
+```
 
 
 
