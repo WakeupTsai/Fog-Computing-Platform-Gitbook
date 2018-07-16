@@ -21,6 +21,7 @@
     * [User Configuration](implementation/worker-rpi/user-configuration.md)
   * [note](note.md)
     * [Reconnect Node](implementation/note/re-connect-node.md)
+    * [Limit Resource](implementation/note/limit-resource.md)
 * [Backup](backup.md)
   * [Master](backup/master.md)
 
