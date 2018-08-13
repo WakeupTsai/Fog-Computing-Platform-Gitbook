@@ -27,7 +27,7 @@
   * [Docker](implementation-v110/master/docker.md)
   * [Kubernetes](implementation-v110/master/kubernetes.md)
   * [Network Configuration](implementation-v110/worker-pc/network-configuration.md)
-  * note
+  * [note](implementation-v110/note.md)
 * [Demo](demo.md)
 * [Backup](backup.md)
   * [Master](backup/master.md)
