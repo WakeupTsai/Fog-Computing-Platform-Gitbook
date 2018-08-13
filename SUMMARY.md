@@ -26,11 +26,7 @@
   * [OS](implementation-v110/os.md)
   * [Docker](implementation-v110/master/docker.md)
   * [Kubernetes](implementation-v110/master/kubernetes.md)
-  * [master](implementation-v110/master.md)
-    * [Kubernetes-Master Only](implementation-v110/master/kubernetes-master-only.md)
-  * [worker-pc](implementation-v110/worker-pc.md)
-    * Network Configuration
-    * [Kubernetes-WorkerOnly](implementation-v110/worker-pc/kubernetes-workeronly.md)
+  * [Network Configuration](implementation-v110/worker-pc/network-configuration.md)
   * note
 * [Demo](demo.md)
 * [Backup](backup.md)

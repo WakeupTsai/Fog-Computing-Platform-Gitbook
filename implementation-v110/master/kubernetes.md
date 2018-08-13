@@ -24,7 +24,7 @@ echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" \
 sudo apt-get install -y kubeadm=1.10.5-00 kubelet=1.10.5-00 kubectl=1.10.5-00 kubernetes-cni=0.6.0-00
 ```
 
-## Master Only
+## Master \(x86\) Only
 
 4.關閉swap
 
@@ -74,7 +74,7 @@ kubectl apply -f [podnetwork].yaml
 #查看有哪些network https://kubernetes.io/docs/concepts/cluster-administration/addons/
 ```
 
-## Worker Only
+## Worker \(x86\) Only
 
 4至Master端下此指令
 
