@@ -26,6 +26,7 @@
   * [OS](implementation-v110/os.md)
   * [Docker](implementation-v110/master/docker.md)
   * [Kubernetes](implementation-v110/master/kubernetes.md)
+  * [K8s Dashboard](implementation-v110/k8s-dashboard.md)
   * [Network Configuration](implementation-v110/worker-pc/network-configuration.md)
   * [note](implementation-v110/note.md)
 * [Demo](demo.md)
