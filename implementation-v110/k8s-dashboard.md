@@ -87,6 +87,8 @@ kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/d
 ### Run Dashboard
 
 ```
+# 讓api server 有對外的port可以連到
+kubectl proxy --port=8080
 # 啟動dashboard，port預設為9090
 gulp serve
 ```
