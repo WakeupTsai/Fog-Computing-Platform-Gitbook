@@ -28,6 +28,7 @@
   * [Kubernetes](implementation-v110/master/kubernetes.md)
   * [K8s Dashboard](implementation-v110/k8s-dashboard.md)
   * [Network Configuration](implementation-v110/worker-pc/network-configuration.md)
+  * [Docker Registry](implementation-v110/docker-registry.md)
   * [note](implementation-v110/note.md)
 * [Demo](demo.md)
 * [Backup](backup.md)
