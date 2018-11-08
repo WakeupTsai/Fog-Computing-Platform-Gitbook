@@ -3,6 +3,7 @@
 
 |Time | Author| Note|
 |-|-|-|
+|2018.11.5|Yu-Chen Hsieh|K8s v1.10 Dashboard|
 |2018.8.13|Yu-Chen Hsieh|Upgrade <br>Demo|
 |2018.7.1|Yu-Chen Hsieh|Docker Registry <br>Master Backup <br>Resource Limitation|
 |2017.12.20|Pei-Hsuan Tsai|modify the version of kubectl and replace the url of dashboard|
